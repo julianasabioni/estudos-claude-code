@@ -20,7 +20,7 @@ skill-name/
 └── SKILL.md
 ```
 
-Com arquivos auxiliares (não são subskills, apenas recursos usados pela Skill principal):
+Com arquivos auxiliares (recursos usados pela Skill principal):
 ```text
 skill-name/
 ├── SKILL.md
@@ -110,7 +110,7 @@ rm -rf ~/.claude/skills/pr-description
 ## Pontos-chave
 
 - Skills podem ser acionadas automaticamente, sem precisar de slash command.
-- Arquivos auxiliares (checklist, examples, templates) não são subskills — fazem parte de uma única Skill.
+- Arquivos auxiliares (checklist, examples, templates) — fazem parte de uma única Skill.
 - A `description` é decisiva para o matching correto.
 - Personal (`~/.claude/skills/`) e Project (`.claude/skills/`) são escopos diferentes.
 
