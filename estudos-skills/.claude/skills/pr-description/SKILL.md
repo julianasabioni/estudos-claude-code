@@ -7,6 +7,7 @@ When writing a PR description:
 
 1. Run `git diff main...HEAD` to see all changes on this branch
 2. Write a description following this format:
+3. Do not use emojis, markdown, or any formatting. Use plain text only.
 
 ## What
 One sentence explaining what this PR does.
