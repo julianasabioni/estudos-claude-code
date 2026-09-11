@@ -99,6 +99,13 @@ mkdir .claude/skills
 rm -rf ~/.claude/skills/pr-description
 ```
 
+## Prioridade quando há Skills com o mesmo nome
+
+1. Empresarial — configurações gerenciadas, prioridade máxima
+2. Pessoal — ~/.claude/skills
+3. Projeto — .claude/skills (dentro de um repositório)
+4. Plugins — plugins instalados, prioridade mais baixa
+
 ## CLAUDE.md × Skills × Slash Commands
 
 | Recurso | Finalidade | Ativação |
